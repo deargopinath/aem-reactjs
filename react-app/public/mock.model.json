@@ -1,0 +1,186 @@
+{
+  "title": "React App",
+  ":type": "aem-reactjs/components/structure/app",
+  ":items": {},
+  ":itemsOrder": [],
+  ":hierarchyType": "page",
+  ":path": "/content/aem-reactjs/react",
+  ":children": {
+    "/content/aem-reactjs/react/home": {
+      "title": "Home",
+      ":type": "aem-reactjs/components/structure/page",
+      ":items": {
+        "root": {
+          "columnCount": 12,
+          "allowedComponents": {
+            "applicable": false,
+            "components": [
+              {
+                "path": "/conf/aem-reactjs/settings/wcm/templates/aem-reactjs-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                "title": "Layout Container"
+              },
+              {
+                "path": "/conf/aem-reactjs/settings/wcm/templates/aem-reactjs-page-template/structure/jcr:content/root/aem-reactjs/components/content/Banner",
+                "title": "Banner"
+              },
+              {
+                "path": "/conf/aem-reactjs/settings/wcm/templates/aem-reactjs-page-template/structure/jcr:content/root/aem-reactjs/components/content/ProductDetails",
+                "title": "Product Details"
+              },
+              {
+                "path": "/conf/aem-reactjs/settings/wcm/templates/aem-reactjs-page-template/structure/jcr:content/root/aem-reactjs/components/content/image",
+                "title": "Image"
+              },
+              {
+                "path": "/conf/aem-reactjs/settings/wcm/templates/aem-reactjs-page-template/structure/jcr:content/root/aem-reactjs/components/content/list",
+                "title": "List"
+              },
+              {
+                "path": "/conf/aem-reactjs/settings/wcm/templates/aem-reactjs-page-template/structure/jcr:content/root/aem-reactjs/components/content/text",
+                "title": "Text"
+              },
+              {
+                "path": "/conf/aem-reactjs/settings/wcm/templates/aem-reactjs-page-template/structure/jcr:content/root/aem-reactjs/components/content/tile",
+                "title": "Tile"
+              }
+            ]
+          },
+          "columnClassNames": {
+            "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+          },
+          "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+          ":items": {
+            "responsivegrid": {
+              "columnCount": 12,
+              "allowedComponents": {
+                "applicable": false,
+                "components": [
+                  {
+                    "path": "/content/aem-reactjs/react/home/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                    "title": "Layout Container"
+                  },
+                  {
+                    "path": "/content/aem-reactjs/react/home/jcr:content/root/responsivegrid/aem-reactjs/components/content/Banner",
+                    "title": "Banner"
+                  },
+                  {
+                    "path": "/content/aem-reactjs/react/home/jcr:content/root/responsivegrid/aem-reactjs/components/content/ProductDetails",
+                    "title": "Product Details"
+                  },
+                  {
+                    "path": "/content/aem-reactjs/react/home/jcr:content/root/responsivegrid/aem-reactjs/components/content/image",
+                    "title": "Image"
+                  },
+                  {
+                    "path": "/content/aem-reactjs/react/home/jcr:content/root/responsivegrid/aem-reactjs/components/content/list",
+                    "title": "List"
+                  },
+                  {
+                    "path": "/content/aem-reactjs/react/home/jcr:content/root/responsivegrid/aem-reactjs/components/content/text",
+                    "title": "Text"
+                  },
+                  {
+                    "path": "/content/aem-reactjs/react/home/jcr:content/root/responsivegrid/aem-reactjs/components/content/tile",
+                    "title": "Tile"
+                  }
+                ]
+              },
+              "columnClassNames": {
+                "image": "aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--default--0 aem-GridColumn--default--none",
+                "productdetails": "aem-GridColumn aem-GridColumn--default--12",
+                "tile": "aem-GridColumn aem-GridColumn--default--12",
+                "banner": "aem-GridColumn aem-GridColumn--default--12",
+                "text": "aem-GridColumn aem-GridColumn--default--12",
+                "list": "aem-GridColumn aem-GridColumn--default--12"
+              },
+              "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+              ":items": {
+                "text": {
+                  "text": "<p>Hello World!</p>\r\n",
+                  "richText": true,
+                  ":type": "aem-reactjs/components/content/text"
+                },
+                "image": {
+                  "alt": "Aerial photo of mountain range",
+                  "title": "Aerial photo of mountain range",
+                  "src": "/content/aem-reactjs/react/home/_jcr_content/root/responsivegrid/image.coreimg.jpeg/1559593126189/mountain-range.jpeg",
+                  "srcUriTemplate": "/content/aem-reactjs/react/home/_jcr_content/root/responsivegrid/image.coreimg{.width}.jpeg/1559593126189/mountain-range.jpeg",
+                  "areas": [],
+                  "uuid": "c0a39183-23f4-48f0-8db7-bb41ba2b0122",
+                  "widths": [],
+                  "lazyEnabled": false,
+                  ":type": "aem-reactjs/components/content/image"
+                },
+                "banner": {
+                  ":type": "aem-reactjs/components/content/Banner",
+                  "image": "/content/dam/we-retail/en/experiences/48-hours-of-wilderness/48-hours-of-wilderness-1.jpg",
+                  "heading": "Banner heading!",
+                  "link": "http://www.google.com",
+                  "description": "Drive in the amazon!",
+                  "label": "Buy now",
+                  "alignment": "orient-right content-align-right"
+                },
+                "tile": {
+                  "text": "<p>Hello! How are you doing?<br>\n</p>\n",
+                  "richText": true,
+                  ":type": "aem-reactjs/components/content/tile"
+                },
+                "list": {
+                  "dateFormatString": "yyyy-MM-dd",
+                  "items": [
+                    {
+                      "path": "/content/we-retail/us/en/products/equipment",
+                      "url": "/content/we-retail/us/en/products/equipment.html",
+                      "lastModified": 1486551515306,
+                      "description": null,
+                      "title": "Equipment"
+                    },
+                    {
+                      "path": "/content/we-retail/us/en/products/men",
+                      "url": "/content/we-retail/us/en/products/men.html",
+                      "lastModified": 1486551515274,
+                      "description": null,
+                      "title": "Men"
+                    },
+                    {
+                      "path": "/content/we-retail/us/en/products/women",
+                      "url": "/content/we-retail/us/en/products/women.html",
+                      "lastModified": 1486551515036,
+                      "description": null,
+                      "title": "Women"
+                    }
+                  ],
+                  "showDescription": true,
+                  "showModificationDate": true,
+                  "linkItems": true,
+                  ":type": "aem-reactjs/components/content/list"
+                },
+                "productdetails": {
+                  ":type": "aem-reactjs/components/content/ProductDetails"
+                }
+              },
+              ":itemsOrder": [
+                "text",
+                "image",
+                "banner",
+                "tile",
+                "list",
+                "productdetails"
+              ],
+              ":type": "wcm/foundation/components/responsivegrid"
+            }
+          },
+          ":itemsOrder": [
+            "responsivegrid"
+          ],
+          ":type": "wcm/foundation/components/responsivegrid"
+        }
+      },
+      ":itemsOrder": [
+        "root"
+      ],
+      ":hierarchyType": "page",
+      ":path": "/content/aem-reactjs/react/home"
+    }
+  }
+}

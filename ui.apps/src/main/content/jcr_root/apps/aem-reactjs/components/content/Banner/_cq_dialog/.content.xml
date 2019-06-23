@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="Banner"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Banner"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <fixedcolums
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+                <items jcr:primaryType="nt:unstructured">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <image
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                fieldDescription="Image"
+                                fieldLabel="Image"
+                                name="./image"/>                        
+                            <heading
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldDescription="Heading"
+                                fieldLabel="Heading"
+                                name="./heading"/>
+                            <description
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                fieldDescription="Description"
+                                fieldLabel="Description"
+                                name="./description"/>                                
+                            <link
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                fieldDescription="Link"
+                                fieldLabel="Link"
+                                name="./link"/>
+                            <label
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldDescription="Button Label"
+                                fieldLabel="Button Label"
+                                name="./label"/>
+                            <alignment
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                fieldDescription="Content aligment"
+                                fieldLabel="Content alignment"
+                                name="./alignment">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <one
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Left"
+                                        selected="true"
+                                        value="orient-left content-align-left"/>
+                                    <two 
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Right"
+                                        value="orient-right content-align-right"/>
+                                </items>
+                            </alignment>                               
+                        </items>
+                    </properties>
+                </items>
+            </fixedcolums>
+        </items>
+    </content>
+</jcr:root>
