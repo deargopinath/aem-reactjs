@@ -34,7 +34,6 @@
             </plugin>
         </plugins>
     </build>
-
     <dependencies>
     	 <dependency>
             <groupId>com.google.code.findbugs</groupId>
