@@ -4,7 +4,7 @@
     <groupId>com.gopinath.aem.reactjs</groupId>
     <artifactId>aem-reactjs</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description>AEM + ReactJS Demo - based on AEM WKND Events project</description>
     <modules>
         <module>react-app</module>
