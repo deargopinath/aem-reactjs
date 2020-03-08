@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "private": true,
   "dependencies": {
-    "@adobe/cq-react-editable-components": "1.1.0",
+    "@adobe/cq-react-editable-components": "1.2.0",
     "@adobe/cq-spa-component-mapping": "1.0.3",
     "@adobe/cq-spa-page-model-manager": "1.0.7",
     "@fortawesome/fontawesome-svg-core": "1.2.18",
